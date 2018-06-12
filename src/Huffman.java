@@ -39,6 +39,7 @@ public class Huffman {
 			FrequencyNode N = new FrequencyNode(C,O);
 			
 			T.next = N;
+			size++;
 		}
 		
 	}
@@ -49,7 +50,9 @@ public class Huffman {
 		int occurence;
 		char character;
 		FrequencyNode next;
-		public FrequencyNode(char character,int occurence) {
+		
+		public FrequencyNode(char character,int occurence) 
+		{
 			this.frequency = 1;
 			this.occurence = occurence;
 			this.character = character;
