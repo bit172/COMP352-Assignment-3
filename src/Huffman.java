@@ -7,7 +7,6 @@ public class Huffman {
 	public static void main(String[] args)
 	{	
 		BufferedReader BR = null;
-		int occurence = 0;
 		FrequencyTable FT = new FrequencyTable();
 		
 		try 
@@ -18,8 +17,7 @@ public class Huffman {
 			 
 			 while(current != -1)
 			 {
-				FT.add(current, occurence);
-				occurence++;
+				FT.add(current);
 				current = BR.read();
 			 }
 		}
@@ -69,19 +67,20 @@ public class Huffman {
 	private static class FrequencyTable
 	{	// 256 Total ASCII Characters
 		private TreeNode[] FrequencyArray = new TreeNode[256];
-		
+		private int occurence = 0;
 		public FrequencyTable()
 		{
 			
 		}
 		
-		public void add(int I,int O)
-		{
+		public void add(int I)
+		{	
 			char character = (char) I;
 			
 			if(FrequencyArray[I] == null)
 			{
-				TreeNode N = new TreeNode(O,character);
+				TreeNode N = new TreeNode(occurence,character);
+				occurence++;
 				FrequencyArray[I] = N;
 			}
 			else
