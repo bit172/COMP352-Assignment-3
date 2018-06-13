@@ -23,7 +23,7 @@ public class PriorityQueue
 			{	
 				if(array[leftchild].frequency == array[smallest].frequency)
 				{
-					if(array[leftchild].occurence < array[smallest].occurence)
+					if(array[leftchild].occurence > array[smallest].occurence)
 					{
 						smallest = leftchild;
 					}
@@ -37,7 +37,7 @@ public class PriorityQueue
 			{
 				if(array[rchild].frequency == array[smallest].frequency)
 				{
-					if(array[rchild].occurence < array[smallest].occurence)
+					if(array[rchild].occurence > array[smallest].occurence)
 					{
 						smallest = rchild;
 					}
