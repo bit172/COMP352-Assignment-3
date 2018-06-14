@@ -4,7 +4,8 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Huffman {
+public class Huffman 
+{
 	
 	public static void main(String[] args)
 	{	
