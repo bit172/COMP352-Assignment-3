@@ -8,8 +8,19 @@ public class TreeNode
 	char character;
 	int frequency;
 	int occurence;
-	
+	String encoding;
 	int value;
+	
+	
+	public TreeNode() {}
+
+
+	@Override
+	public String toString() {
+		return "TreeNode [parent=" + parent + ", left=" + left + ", right=" + right + ", character=" + character
+				+ ", frequency=" + frequency + ", occurence=" + occurence + ", value=" + value + "]";
+	}
+
 
 	public TreeNode(TreeNode p)
 	{
