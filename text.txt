@@ -1,0 +1,27 @@
+if purple people eaters are real, where do they find purple people to eat?
+
+Encoding Table
+===========================================================================
+Character: e      Frequency: 14   Occurence: 7    Encoding:00   
+Character: ?      Frequency: 1    Occurence: 18   Encoding:010000
+Character: n      Frequency: 1    Occurence: 17   Encoding:010001
+Character: d      Frequency: 2    Occurence: 15   Encoding:01001
+Character: ,      Frequency: 1    Occurence: 12   Encoding:010100
+Character: s      Frequency: 1    Occurence: 11   Encoding:010101
+Character: y      Frequency: 1    Occurence: 16   Encoding:010110
+Character: w      Frequency: 1    Occurence: 13   Encoding:010111
+Character: f      Frequency: 2    Occurence: 1    Encoding:01100
+Character: i      Frequency: 2    Occurence: 0    Encoding:01101
+Character: h      Frequency: 2    Occurence: 14   Encoding:01110
+Character: u      Frequency: 2    Occurence: 4    Encoding:01111
+Character: p      Frequency: 8    Occurence: 3    Encoding:100  
+Character: o      Frequency: 4    Occurence: 8    Encoding:1010 
+Character: l      Frequency: 5    Occurence: 6    Encoding:1011 
+Character:        Frequency: 13   Occurence: 2    Encoding:110  
+Character: r      Frequency: 6    Occurence: 5    Encoding:1110 
+Character: t      Frequency: 4    Occurence: 10   Encoding:11110
+Character: a      Frequency: 4    Occurence: 9    Encoding:11111
+
+Encoding:
+
+0110101100110100011111110100101100110100001010100101100110001111111110001110010101110111111110001101110001111110110101001100101110111000111000110010011010110111100111000010110110011000110101000101001110100011111110100101100110100001010100101100110111101010110001111111110010000
